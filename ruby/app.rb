@@ -1,13 +1,15 @@
 require 'prime'
 require 'fileutils'
 
+STDOUT.sync = true
+
 def a(n)
     b(n)
 end
 
 def b(n)
     ## Make some calculations
-    i = 1_000_000
+    i = 100_000
     while i > 0 do
         Prime.prime?(i)
         i -= 1
