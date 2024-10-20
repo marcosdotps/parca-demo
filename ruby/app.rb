@@ -9,7 +9,7 @@ def b(n)
     ## Make some calculations
     i = 1_000_000
     while i > 0 do
-        Prime.prime?(i) 
+        Prime.prime?(i)
         i -= 1
     end
     c(n)
@@ -43,3 +43,4 @@ while true
     sleep(1)
     a(1)
 end
+
